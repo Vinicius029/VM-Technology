@@ -77,6 +77,10 @@ footer {
         height: 150px;       
     }
 
+    h1{
+        font-size: 40px;
+    }
+
     .nav-contatos{
         margin-bottom: 10px;
     }
