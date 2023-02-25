@@ -34,13 +34,17 @@ nav{
     background-color: #0000001f
 }
 
+main{
+    margin: 10px;
+}
+
 
 .container{
     font-family: 'Roboto', sans-serif;
     margin: auto;
     padding: 10px;
     max-width: 550px;
-    height: 600px;
+    height: 700px;
     margin-top: 20px;
     border-radius: 10px; 
 }
@@ -66,11 +70,15 @@ li{
 
 .group-services:hover{
     background-color: rgba(41,221,226,1);
+    font-size: 18px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.273);
+    cursor: default;
+
+    box-shadow:  5px black;
     border-radius: 10px;
 }
 
 footer {
-
     left: 0;
     bottom: 0;
     width: 100%;
@@ -94,6 +102,7 @@ footer {
     }
 
     .container{
+        height: 800px;
         margin-top: 10px; 
     }
 
