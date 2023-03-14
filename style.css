@@ -45,10 +45,19 @@ main{
     font-family: 'Roboto', sans-serif;
     margin: auto;
     padding: 10px;
-    max-width: 550px;
-    height: 800px;
+    max-width: 750px;
     margin-top: 20px;
     border-radius: 10px; 
+}
+
+h3{
+    background-color: rgba(25, 25, 213, 0.856);
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: -16px;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
 a{
@@ -59,6 +68,11 @@ a{
 
 li{
     list-style: none;
+    margin-left: -20px;
+}
+
+p{
+    padding: 2px;
 }
 
 .btn-insta{
@@ -66,9 +80,9 @@ li{
     background: linear-gradient(90deg, rgb(221, 219, 83) 14%, rgb(210, 49, 194) 55%, rgb(17, 57, 217) 85%);
 }
 
+
 .explicacao-servicos{
-    background-color: rgba(8, 8, 243, 0.11);
-    border-radius: 4px;
+
     padding: 5px;
 }
 
@@ -80,11 +94,18 @@ li{
     color: white;
     background-color: rgba(25, 25, 213, 0.856);
     font-size: 17px;
+    margin-bottom: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.273);
     cursor: default;
 
     box-shadow:  5px black;
     border-radius: 10px;
+}
+
+.aviso{
+    border: solid 1px rgba(12, 6, 131, 0.493);
+    border-radius: 5px;
+    padding: 4px;
 }
 
 footer {
@@ -116,7 +137,7 @@ footer {
     }
 
     .container{
-        height: 1000px;
+        
         margin-top: 10px; 
     }
 
