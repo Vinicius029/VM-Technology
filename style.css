@@ -109,6 +109,20 @@ p{
     padding: 4px;
 }
 
+.contrato-servico{
+    padding: 10px;
+    text-align: center;
+}
+
+.contrato-servico h5{
+    font-weight: 550;
+}
+
+.contrato-servico a{   
+    font-size: 22px;
+    width: 180px;
+}
+
 footer {
     height: 30px;
     left: 0;
